@@ -1,0 +1,24 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+}
+/* vidoe som bakgrund */
+.video-bg{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;/* gör att videon fyller hela ytan*/
+    z-index: -1;/*skickar videon bakom allt innehåll  */
+}
+h1{
+    position: relative;
+    text-align: center;
+    color: aliceblue;
+    font-size: Arial, sans-serif;
+    font-size: 2rem;
+    padding: 20px;
+}
