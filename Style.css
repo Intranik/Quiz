@@ -1,24 +1,60 @@
-body{
-    margin: 0;
-    padding: 0;
-    height: 100%;
-    overflow: hidden;
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden;
 }
 /* vidoe som bakgrund */
-.video-bg{
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;/* gör att videon fyller hela ytan*/
-    z-index: -1;/*skickar videon bakom allt innehåll  */
+.video-bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* gör att videon fyller hela ytan*/
+  z-index: -1; /*skickar videon bakom allt innehåll  */
 }
-h1{
-    position: relative;
-    text-align: center;
-    color: aliceblue;
-    font-size: Arial, sans-serif;
-    font-size: 2rem;
-    padding: 20px;
+h1 {
+  position: relative;
+  text-align: center;
+  color: aliceblue;
+  font-size: Arial, sans-serif;
+  font-size: 2rem;
+  padding: 20px;
+}
+.quwestion {
+  color: aliceblue;
+}
+#startBtn {
+  background: none;
+  color: aliceblue;
+  width: 200px;
+  height: 50px;
+}
+#new_Game {
+  color: aliceblue;
+  background: none;
+}
+#new_Game_img {
+  color: aliceblue;
+  background: none;
+}
+#next {
+  color: aliceblue;
+  background: none;
+}
+#back {
+  color: aliceblue;
+  background: none;
+}
+.container {
+  background-color: rgba(255, 255, 255, 0.35);
+  box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(200px);
+  width: 500px;
+  display: flexbox;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  margin: auto;
 }

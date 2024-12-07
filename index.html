@@ -1,53 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="Style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Style.css" />
     <script src="quiz.js"></script>
     <title>Document</title>
-</head>
-<body>
+  </head>
+  <body>
+    <h1>Välkommen till min quiz om sverige</h1>
     <video class="video-bg" autoplay muted loop>
-        <source src="852395-hd_1280_720_24fps.mp4" type="video/mp4">
+      <source src="852395-hd_1280_720_24fps.mp4" type="video/mp4" />
     </video>
     <div class="container">
-        <h1>Välkommen till min quiz om sverige</h1>
-        <div class = "rubrikQuiz">
+        <div class="rubrikQuiz">
             <h2 id="quiz">Quiz</h2>
         </div>
+        
+        <div class="start">
+            <button type="button" id="startBtn">STARTA</button>
+        </div>
         <div class="new_game_butn">
-           <button type="button" id="new_Game">New Game</button>
-           <button type="button" id="new_Game_img">🔃</button>
+            <button type="button" id="new_Game">New Game</button>
+            <button type="button" id="new_Game_img">🔃</button>
         </div>
-        <!-- choose to use in the game -->
-         <div class="answerOne">
-            <input type="checkbox" id="input1" name="answer_One">
-            <label id="answer_one" for="answer_One" ></label>
-        </div>
-        <div class="answerToe">
-            <input type="checkbox" id="input2" name="answer_Toe" >
-            <label id="answer_toe" for="answer_Toe"></label>
-        </div>
-        <div class="answerTre">
-            <input type="checkbox" id="input3" name="answer_Tre">
-            <label id="answer_tre" for="answer_Tre"></label>
-        </div>
-        <div class="answerFour">
-            <input type="checkbox" id="input4" name="answer_Four">
-            <label id="answer_four" for="answer_Four"></label>
-        </div>
-        <div class="nextAndBack">
-            <button type="button" id="next">Next</button>
-            <button type="button" id="back">Back</button>
-        </div>
-        <div class="winer_text">
-            <p class="result_test"></p>
-            <ul class="answer_list">
-                <li class="answers"></li>
-            </ul>
-        </div>
-
+        <p class="question">Här ska va en frågan</p>
+      <!-- choose to use in the game -->
+      <div class="answerOne">
+        <input type="checkbox" id="input1" name="answer_One" />
+        <label id="answer_one" for="answer_One"></label>
+      </div>
+      <div class="answerToe">
+        <input type="checkbox" id="input2" name="answer_Toe" />
+        <label id="answer_toe" for="answer_Toe"></label>
+      </div>
+      <div class="answerTre">
+        <input type="checkbox" id="input3" name="answer_Tre" />
+        <label id="answer_tre" for="answer_Tre"></label>
+      </div>
+      <div class="answerFour">
+        <input type="checkbox" id="input4" name="answer_Four" />
+        <label id="answer_four" for="answer_Four"></label>
+      </div>
+      <div class="nextAndBack">
+        <button type="button" id="next">Next</button>
+        <button type="button" id="back">Back</button>
+      </div>
+      <div class="winer_text">
+        <p class="result_test"></p>
+        <ul class="answer_list">
+          <li class="answers"></li>
+        </ul>
+      </div>
     </div>
-</body>
+  </body>
 </html>
