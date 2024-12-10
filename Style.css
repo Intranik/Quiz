@@ -25,19 +25,32 @@ h1 {
 .quwestion {
   color: aliceblue;
 }
+.start{
+    
+}
 #startBtn {
   background: none;
   color: aliceblue;
   width: 200px;
   height: 50px;
+  font-size: 30px;
+  border-radius: 10px;
+}
+.new_game_butn{
+    border-radius: 10px;
+    border: tomato;
 }
 #new_Game {
   color: aliceblue;
   background: none;
+  border:none;
+  padding: 0;
 }
 #new_Game_img {
   color: aliceblue;
   background: none;
+  border: none;
+  padding: 0;
 }
 #next {
   color: aliceblue;
