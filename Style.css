@@ -5,10 +5,11 @@
   overflow: hidden;
 }
 .background-black{
-    background-color: black;
+    background: black;
+    color: aliceblue;
 }
 /* vidoe som bakgrund */
-.video-bg {
+ .video-bg {
   position: fixed;
   top: 0;
   left: 0;
@@ -17,54 +18,50 @@
   object-fit: cover; /* gör att videon fyller hela ytan*/
   z-index: -1; /*skickar videon bakom allt innehåll  */
 }
+.video-bg-hidden{
+  display: none;
+  width: -100%;
+  height: -100%;
+}
 #quiz {
-    color: aliceblue;
+    /* color: aliceblue; */
     display: flex;
     justify-content: center;
     align-items: center;
     
 }
 h1 {
+  /* color: aliceblue; */
   position: relative;
   text-align: center;
-  color: aliceblue;
   font-size: Arial, sans-serif;
   font-size: 2rem;
   padding: 20px;
 }
-.quwestion {
-  color: aliceblue;
-}
-#startBtn {
+#starBtn{
   background: none;
-  color: aliceblue;
-  width: 200px;
-  height: 50px;
+  padding: 10px;
+  border-radius: 20px;
+  display: flex;
+  margin-left: 30%;
   font-size: 30px;
-  border-radius: 10px;
-  margin-left: 25%;
 }
-.new_game_butn{
-    border-radius: 10px;
-}
+
 #new_Game {
-  color: aliceblue;
+  /* color: aliceblue; */
   background: none;
-  border:none;
-  padding: 0;
-}
-#new_Game_img {
-  color: aliceblue;
-  background: none;
-  border: none;
-  padding: 0;
+  padding: 15px;
+  border-radius: 15px;
+  display: flex;
+  margin-left: 30%;
+  font-size: 20px;
 }
 #next {
-  color: aliceblue;
+  /* color: aliceblue; */
   background: none;
 }
 #back {
-  color: aliceblue;
+  /* color: aliceblue; */
   background: none;
 }
 .container {
@@ -82,4 +79,15 @@ h1 {
     display: flex;
     margin-left: auto;
     border-radius: 10px;
+}
+.question{
+  /* color: aliceblue; */
+}
+.light-mode button{
+  color: black;
+  background: white;
+}
+.dark-mode button{
+  color: white;
+  background: black;
 }

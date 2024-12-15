@@ -4,30 +4,29 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="Style.css" />
-    <script src="quiz.js"></script>
     <title>Document</title>
   </head>
+
   <body>
+  
+    <video class="video-bg" autoplay muted loop>
+      <source src="852395-hd_1280_720_24fps.mp4" type="video/mp4"/>
+    </video>
+
     <div class="background">
-        <button id="mode">Dark</button>
+        <button type="button" id="mode">Light</button>
         <h1>Välkommen till min quiz om sverige</h1>
-        <video class="video-bg" autoplay muted loop>
-          <source src="852395-hd_1280_720_24fps.mp4" type="video/mp4" />
-        </video>
+        
         <div class="container">
             <div class="rubrikQuiz">
                 <h2 id="quiz">Quiz</h2>
             </div>
-
-            <div class="start">
-                <button type="button" id="startBtn">STARTA</button>
-            </div>
+            <button type="button" id="starBtn">Starta Quiz</button>
             <div class="new_game_butn">
-                <button type="button" id="new_Game">New Game</button>
-                <button type="button" id="new_Game_img">🔃</button>
+                <button type="button" id="new_Game">🔃 New Game</button>
             </div>
             <p class="question">FRÅGOR OM SVERIGE</p>
-          <!-- choose to use in the game -->
+          
           <div class="answerOne">
             <input type="checkbox" id="input1" name="answer_One" />
             <label id="answer_one" for="answer_One"></label>
@@ -45,16 +44,14 @@
             <label id="answer_four" for="answer_Four"></label>
           </div>
           <div class="nextAndBack">
-            <button type="button" id="next">Next</button>
             <button type="button" id="back">Back</button>
+            <button type="button" id="next">Next</button>
           </div>
           <div class="winer_text">
             <p class="result_test"></p>
-            <ul class="answer_list">
-              <li class="answers"></li>
-            </ul>
           </div>
         </div>
     </div>
+    <script src="quiz.js"></script>
   </body>
 </html>
