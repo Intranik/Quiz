@@ -5,6 +5,11 @@ const video= document.querySelector(".video-bg");
 const newGameBtn = document.getElementById("new_Game");
 const nexBtn = document.getElementById("next");
 const backBtn = document.getElementById("back");
+const starBtn = document.getElementById("starBtn");
+const pQuestion = document.querySelector("question");
+
+let quizData = [];
+let currentQuestionIndex = 0;
 //Mode button Dark / Light
 modeBtn.addEventListener('click', ()=>{
     document.body.classList.toggle("background-black");
