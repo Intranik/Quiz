@@ -1,91 +1,91 @@
 [
   {
+    "question": " Har Sverige 25 landskap?",
     "type": "true_false",
-    "qusetion": " Har Sverige 25 landskap?",
     "answers":["Sant", "flaskt"],
     "correct": "Sant"
   },
   {
+    "question": "Heter Sveriges största sjö (Vänern)",
     "type":"true_false",
-    "qusetion": "Heter Sveriges största sjö (Vänern)",
     "answers":["Sant", "flaskt"],
     "correct": "Sant"
   },
   {
-    "type":"true_false",
     "question": " har sveriges 10,5 miljoner invånare?",
+    "type":"true_false",
     "answers":["Sant","flaskt"],
     "correct": "Sant"
   },
   {
-    "type":"true_false",
     "question": "Är Sveriges nationalblomma Liten blåklocka?",
+    "type":"true_false",
     "answers":["Sant", "flaskt"],
     "correct":"Sant"
   },
   {
+    "question": " Är varg nämnas som Sveriges nationaldjur och nationalsymbol?",
     "type":"true_false",
-    "qusetion": " Är varg nämnas som Sveriges nationaldjur och nationalsymbol?",
     "answers": ["Sant","flaskt"],
     "correct":"flaskt"
   },
   {
+    "question": " När gick Sverige med i EU?",
     "type":"checkbox",
-    "qusetion": " När gick Sverige med i EU?",
     "answers":["1995", "1990", "1980", "1985"],
     "correct":"1995" 
   },
   {
+    "question": " Under vilket århundrade började den svenska stormaktstiden?",
     "type":"checkbox",
-    "qusetion": " Under vilket århundrade började den svenska stormaktstiden?",
     "answers":["1400-talet","1600-talet","1700-talet","1500-talet"],
     "correct":"1600-talet"
   },
   {
+    "question": " Vilket är Sveriges högsta berg?",
     "type":"checkbox",
-    "qusetion": " Vilket är Sveriges högsta berg?",
     "answers":["Storvätteshågna","Sarektjåkkå","Kebnekaise","Helags"],
     "correct": "Kebnekaise"
   },
   {
-    "type":"checkbox",
     "question": " Vilket av följande smeknamn brukar användas för Stockholm?",
+    "type":"checkbox",
     "answers":["Guldstaden","Lilla Paris","Nordens Venedig","Lilla London"],
     "correct": "Nordens Venedig"
   },
   {
-    "type":"multiple_choice",
     "question": " Hur många invånare har tätorten Stockholm?",
+    "type":"multiple_choice",
     "answers" :["750 000","1,6 miljoner","2,9 miljoner","1 617 407"],
     "correct": ["1,6 miljoner", "1 617 407"]
   },
   {
-    "type":"checkbox",
     "question": " Vem skrev och sjöng låten 'Stockholm i mitt hjärta'?",
+    "type":"checkbox",
     "answers":["E-Type","Lasse Berghagen","Lill-Babs","Evert Taube"],
     "correct": "Lasse Berghagen"
   },
   {
-    "type":"checkbox",
     "question": " Vad heter den anrika nöjesparken i Stockholm?",
+    "type":"checkbox",
     "answers":["Tivolo","Bakken","Gröna Lund","Liseberg"],
     "correct": "Gröna Lund"
   },
   {
-    "type":"checkbox",
     "question": " Vad heter Stockholms smalaste gata?",
+    "type":"checkbox",
     "answers":["Mårten trozigs gränd","Sveavägen","Birger Jarlsgatan","Surbrunnsgatan"],
     "correct": "Mårten trozigs gränd"
   },
   {
-    "type":"checkbox",
     "question": "I vilken stadsdel ligger Globen?",
+    "type":"checkbox",
     "answers":["Midsommarkransen","Liljeholmen","Johanneshov","Bagarmmossen"],
     "correct": "Johanneshov"
   },
   {
-    "type":"multiple_choice",
     "question": "Stockholm tillhör två olika landskap?",
+    "type":"multiple_choice",
     "answers":["Uppland","Dalsland","Södermanland","Östergötland"],
     "correct": ["Uppland","Södermanland"]
   }
